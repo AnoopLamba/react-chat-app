@@ -24,14 +24,14 @@ function Sidebar() {
 
   return (
     <>
-      <div className="Sidebar w-[350px] h-screen p-4 flex flex-col items-center justify-start gap-4 border-r border-slate-200 shadow-2xl">
+      <div className="Sidebar w-[350px] h-screen p-4 flex flex-col items-center justify-start flex-shrink-0 gap-4 border-r border-slate-200 shadow-2xl">
         {/* search and search result */}
         <div className="w-full flex flex-col items-center justify-end relative">
           <input
-            className="w-full bg-slate-200 px-2 py-1"
+            className="w-full bg-slate-200 px-2 py-1 caret-purple-600"
             onChange={(e) => setSearchTerm(e.target.value.trim())}
             type="text"
-            placeholder="Search..."
+            placeholder="Search Contacts..."
           />
 
           {searchResultArr.length === 0 ? null : (
@@ -43,11 +43,9 @@ function Sidebar() {
           )}
         </div>
 
-        {/* add new conversations */}
-        <div className="w-full flex items-center justify-between">
-          <span className="text-sm">CONVERSATIONS</span>
-          <button className=" bg-purple-400 px-2 py-1 rounded">ADD</button>
-        </div>
+        <span className="w-full text-start text-lg font-bold tracking-wider">
+          CONVERSATIONS
+        </span>
 
         {/* conversation list */}
         <ConversationList />
