@@ -1,7 +1,10 @@
+import { useParams } from "react-router-dom";
 import ConversationArea from "./ConversationArea";
 import MessageInput from "./MessageInput";
 
 function RightSideView() {
+  const { id } = useParams();
+
   return (
     <div className="w-full h-screen flex flex-col">
       {/* name and image bar */}
@@ -21,7 +24,8 @@ function RightSideView() {
         </div>
       </div>
 
-      <ConversationArea />
+      {/* Conversation Area */}
+      <ConversationArea id={id} />
 
       {/* message input */}
       <MessageInput />

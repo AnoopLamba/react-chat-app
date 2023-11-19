@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { useChatValue } from "../Context/ChatContext";
 import { chatdata } from "../Data/chatdata";
 import ConversationCard from "./ConversationCard";
+import { NavLink } from "react-router-dom";
 
 function ConversationList() {
   const { conversationArray, setConversationArray } = useChatValue();
@@ -20,9 +21,11 @@ function ConversationList() {
   };
 
   return (
-    <div className="w-full p-2 bg-slate-200 flex flex-col gap-2 items-center justify-start overflow-y-auto">
+    <div className="ConversationList w-full p-2 bg-slate-200 flex flex-col gap-2 items-center justify-start overflow-y-auto">
       {conversationArray.map((chat, index) => (
-        <ConversationCard key={index} chat={chat} />
+        <NavLink to={`/${chat.userId}`} key={index}>
+          <ConversationCard chat={chat} />
+        </NavLink>
       ))}
     </div>
   );

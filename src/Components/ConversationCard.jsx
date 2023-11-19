@@ -1,7 +1,7 @@
 function ConversationCard(props) {
   const { chat } = props;
   return (
-    <div className="ConversationCard w-full flex items-center justify-start gap-2 cursor-pointer">
+    <div className="ConversationCard w-full flex items-center justify-start gap-2 cursor-pointer hover:bg-purple-200">
       {/* card img */}
       <div className=" w-12 h-12 rounded-full">
         <img

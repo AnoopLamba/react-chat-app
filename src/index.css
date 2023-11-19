@@ -27,3 +27,7 @@
 }
 
 /* ! end of scrollbar styling */
+
+.ConversationList a {
+  width: 100%;
+}

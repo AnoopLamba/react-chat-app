@@ -9,7 +9,7 @@ function App() {
       element: <Sidebar />,
       children: [
         {
-          path: ":contactName",
+          path: ":id",
           element: <RightSideView />,
         },
       ],
