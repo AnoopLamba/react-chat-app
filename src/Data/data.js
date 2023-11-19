@@ -3,7 +3,7 @@ export var data = [
   {
     userId: 1,
     userName: "Sahil",
-    userAvatar: "/img/useravatar.jpg",
+    userAvatar: "./img/useravatar.jpg",
     userShow: true,
     userMessages: [
       {
@@ -25,7 +25,7 @@ export var data = [
   {
     userId: 2,
     userName: "Hitesh",
-    userAvatar: "/img/useravatar.jpg",
+    userAvatar: "./img/useravatar.jpg",
     userShow: true,
     userMessages: [
       {
@@ -47,7 +47,7 @@ export var data = [
   {
     userId: 3,
     userName: "Deepak Sir",
-    userAvatar: "/img/useravatar.jpg",
+    userAvatar: "./img/useravatar.jpg",
     userShow: true,
     userMessages: [
       {
@@ -69,7 +69,7 @@ export var data = [
   {
     userId: 4,
     userName: "Kismat",
-    userAvatar: "/img/useravatar.jpg",
+    userAvatar: "./img/useravatar.jpg",
     userShow: true,
     userMessages: [
       {
@@ -91,7 +91,7 @@ export var data = [
   {
     userId: 5,
     userName: "Ankit",
-    userAvatar: "/img/useravatar.jpg",
+    userAvatar: "./img/useravatar.jpg",
     userShow: false,
     userMessages: [],
   },
@@ -100,7 +100,7 @@ export var data = [
   {
     userId: 6,
     userName: "Vikash Sir",
-    userAvatar: "/img/useravatar.jpg",
+    userAvatar: "./img/useravatar.jpg",
     userShow: false,
     userMessages: [],
   },
@@ -109,7 +109,7 @@ export var data = [
   {
     userId: 7,
     userName: "Sagar Sir",
-    userAvatar: "/img/useravatar.jpg",
+    userAvatar: "./img/useravatar.jpg",
     userShow: false,
     userMessages: [],
   },
@@ -118,7 +118,7 @@ export var data = [
   {
     userId: 8,
     userName: "Neeraj Sir",
-    userAvatar: "/img/useravatar.jpg",
+    userAvatar: "./img/useravatar.jpg",
     userShow: false,
     userMessages: [],
   },
@@ -127,7 +127,7 @@ export var data = [
   {
     userId: 9,
     userName: "Sheetal Mam",
-    userAvatar: "/img/useravatar.jpg",
+    userAvatar: "./img/useravatar.jpg",
     userShow: false,
     userMessages: [],
   },
@@ -136,7 +136,7 @@ export var data = [
   {
     userId: 10,
     userName: "Pooja Mam",
-    userAvatar: "/img/useravatar.jpg",
+    userAvatar: "./img/useravatar.jpg",
     userShow: false,
     userMessages: [],
   },
@@ -145,7 +145,7 @@ export var data = [
   {
     userId: 11,
     userName: "Ajay",
-    userAvatar: "/img/useravatar.jpg",
+    userAvatar: "./img/useravatar.jpg",
     userShow: true,
     userMessages: [
       {
@@ -167,7 +167,7 @@ export var data = [
   {
     userId: 12,
     userName: "Dheeraj",
-    userAvatar: "/img/useravatar.jpg",
+    userAvatar: "./img/useravatar.jpg",
     userShow: true,
     userMessages: [
       {
@@ -189,7 +189,7 @@ export var data = [
   {
     userId: 13,
     userName: "Rahul Sir",
-    userAvatar: "/img/useravatar.jpg",
+    userAvatar: "./img/useravatar.jpg",
     userShow: true,
     userMessages: [
       {
@@ -211,7 +211,7 @@ export var data = [
   {
     userId: 14,
     userName: "Yakshit",
-    userAvatar: "/img/useravatar.jpg",
+    userAvatar: "./img/useravatar.jpg",
     userShow: true,
     userMessages: [
       {
