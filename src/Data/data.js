@@ -1,4 +1,4 @@
-export var chatdata = [
+export var data = [
   // user 1
   {
     userId: 1,

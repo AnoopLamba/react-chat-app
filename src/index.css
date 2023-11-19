@@ -28,6 +28,7 @@
 
 /* ! end of scrollbar styling */
 
-.ConversationList a {
+.ConversationList a,
+.SearchResult a {
   width: 100%;
 }
