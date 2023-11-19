@@ -14,14 +14,10 @@ function ConversationList() {
     setConversationArray(modifiedArray);
   }, [chatData]);
 
-  const handleOnCardClick = () => {
-    document.getElementById("messageInput").focus();
-  };
-
   return (
     <div className="ConversationList w-full p-2 bg-slate-200 flex flex-col gap-2 items-center justify-start overflow-y-auto">
       {conversationArray.map((chat, index) => (
-        <NavLink onClick={handleOnCardClick} to={`/${chat.userId}`} key={index}>
+        <NavLink to={`/${chat.userId}`} key={index}>
           <ConversationCard chat={chat} />
         </NavLink>
       ))}

@@ -24,7 +24,6 @@ function Sidebar() {
   }, [searchTerm]);
 
   const handleOnCardClick = () => {
-    // document.getElementById("messageInput").focus();
     document.getElementById("contactSearch").value = "";
     setSearchTerm("");
   };
