@@ -46,7 +46,7 @@ function Sidebar() {
               {searchResultArr.map((chat, index) => (
                 <NavLink
                   onClick={handleOnCardClick}
-                  to={`/${chat.userId}`}
+                  to={`/react-chat-app/${chat.userId}`}
                   key={index}
                 >
                   <ConversationCard chat={chat} />
