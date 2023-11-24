@@ -5,7 +5,7 @@ import RightSideView from "./Components/RightSideView";
 function App() {
   const router = createBrowserRouter([
     {
-      path: "/",
+      path: "/react-chat-app",
       element: <Sidebar />,
       children: [
         {
